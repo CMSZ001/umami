@@ -1,5 +1,8 @@
 [functions]
-included_files = ["node_modules/.geo/**"]
+  included_files = ["node_modules/.geo/**"]
 
 [[plugins]]
-package = "@netlify/plugin-nextjs"
+  package = "@netlify/plugin-nextjs"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs-cache"
